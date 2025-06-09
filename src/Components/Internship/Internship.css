@@ -1,0 +1,110 @@
+.internship-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 40px;
+}
+
+.internship-title h1 {
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.internship-title h1::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.internship-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.internship-card {
+  background: linear-gradient(267deg, #da7c25 0.36%, #db8bf1 102.06%);
+  border-radius: 12px;
+  padding: 30px;
+  width: 420px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.internship-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 28px rgba(41, 128, 185, 0.3);
+}
+
+.internship-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.internship-card h2 {
+  font-size: 28px;
+  color: black;
+}
+
+.internship-card p,
+.internship-card li {
+  font-size: 20px;
+  color: black;
+}
+@media (max-width: 768px) {
+  .internship-section {
+    padding: 40px 20px;
+  }
+
+  .internship-title h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .internship-title h1::after {
+    width: 50px;
+    height: 3px;
+    bottom: -8px;
+  }
+
+  .internship-container {
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .internship-card {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .internship-card h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .internship-card h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .internship-card p,
+  .internship-card li {
+    font-size: 16px;
+    text-align: justify;
+  }
+}

@@ -1,0 +1,107 @@
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+.hero img {
+  margin-top: 10px;
+  height: 350px;
+  width: 400px;
+  border-radius: 50%;
+}
+.hero h1 {
+  text-align: center;
+  width: 70%;
+  font-size: 90px;
+  font-weight: 600;
+}
+.hero p {
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+}
+.hero-action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.hero-connect {
+  padding: 20px 45px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  cursor: pointer;
+}
+.hero-resume {
+  padding: 25px 75px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  transition: border-color 0.3s ease;
+}
+.hero-connect:hover {
+  border: 2px solid white;
+}
+.hero-resume:hover {
+  border-color: #b923e1;
+  color: white;
+  text-decoration: none;
+}
+.hero-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .hero img {
+    margin-top: 120px;
+    width: 260px;
+  }
+  .hero h1 {
+    margin-top: 50px;
+    width: 100%;
+    font-size: 50px;
+  }
+  .hero p {
+    width: 90%;
+    font-size: 25px;
+    line-height: 32px;
+    margin: 10px 0px;
+  }
+  .hero-action {
+    gap: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+  .hero-connect {
+    padding: 20px 30px;
+    border-radius: 40px;
+  }
+  a.hero-resume {
+    padding: 20px 50px;
+    border-radius: 40px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    color: white !important;
+    text-decoration: none !important;
+    display: inline-block;
+    font-weight: 500;
+    transition: border-color 0.3s ease;
+    text-align: center;
+  }
+
+  a.hero-resume:hover {
+    border-color: #b923e1;
+    color: white !important;
+    text-decoration: none !important;
+  }
+}
