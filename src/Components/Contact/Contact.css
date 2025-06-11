@@ -72,7 +72,7 @@
   padding-left: 20px;
   border-radius: 4px;
   background: #825a8d;
-  color: aliceblue;
+  color: white;
   font-size: 20px;
 }
 .contact-right textarea {
@@ -81,7 +81,7 @@
   padding: 25px;
   border-radius: 4px;
   background: #825a8d;
-  color: aliceblue;
+  color: white;
   font-size: 20px;
 }
 .contact-right button {
@@ -95,7 +95,7 @@
   font-size: 25px;
   background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
 }
-@media (max-width: 768px) {
+@media (min-width: 250px) and (max-width: 768px) {
   .contact {
     gap: 50px;
     margin: 50px 70px;
