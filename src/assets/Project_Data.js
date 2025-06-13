@@ -12,7 +12,7 @@ const Project_Data = [
     project_name: "UI Designs",
     project_description:
       "Created clean and responsive UI designs using Figma, including sign-up pages, dashboard layouts, and mobile app duplicates. Focused on user-centric design principles, visual consistency, and intuitive navigation. Each interface was designed to enhance usability and provide a seamless user experience, showcasing strong proficiency in layout structuring, component design, and interactive prototyping.",
-    Platform: "Platform : Google Colaboratory",
+    Platform: "Platform : Figma",
   },
   {
     s_no: "03",
