@@ -5,14 +5,16 @@ import About from "./Components/About/About";
 import Project from "./Components/Project/Project";
 import Contact from "./Components/Contact/Contact";
 import Internship from "./Components/Internship/Internship";
+import Design from "./Components/Design/Design";
 const App = () => {
   return (
     <div>
       <Navbar />
       <Hero />
       <About />
-      <Project />
       <Internship />
+      <Project />
+      <Design />
       <Contact />
     </div>
   );

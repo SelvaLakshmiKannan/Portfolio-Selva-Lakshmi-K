@@ -1,0 +1,125 @@
+.design-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.design-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.design-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.design-gallery {
+  display: flex;
+  gap: 30px;
+}
+
+.design-card {
+  width: 280px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  animation-fill-mode: forwards;
+  text-align: center;
+}
+
+.design-card img {
+  width: 100%;
+  height: 365px;
+  object-fit: contain;
+  border-radius: 10px;
+  background: #f0f0f0;
+  padding: 10px;
+}
+
+.design-card p {
+  margin-top: 12px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 40%;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+
+.nav-btn:hover {
+  background: #eee;
+}
+
+.nav-btn.left {
+  left: -40px;
+}
+
+.nav-btn.right {
+  right: -40px;
+}
+
+/* Animations (unchanged) */
+.fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+  transform: translateY(30px);
+}
+.slide-in-left {
+  animation: slideInLeft 0.8s ease-out forwards;
+  transform: translateX(-30px);
+}
+.zoom-in {
+  animation: zoomIn 0.8s ease-out forwards;
+  transform: scale(0.7);
+}
+.rotate-in {
+  animation: rotateIn 0.8s ease-out forwards;
+  transform: rotate(-15deg);
+}
+.flip-in {
+  animation: flipIn 0.8s ease-out forwards;
+  transform: rotateY(90deg);
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slideInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes zoomIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes rotateIn {
+  to {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
+@keyframes flipIn {
+  to {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+}

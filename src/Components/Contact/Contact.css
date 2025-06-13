@@ -71,8 +71,8 @@
   height: 78px;
   padding-left: 20px;
   border-radius: 4px;
-  background: #825a8d;
-  color: white;
+  background: #dbabe8;
+  color: rgb(16, 15, 15);
   font-size: 20px;
 }
 .contact-right textarea {
@@ -80,8 +80,8 @@
   border: none;
   padding: 25px;
   border-radius: 4px;
-  background: #825a8d;
-  color: white;
+  background: #dbabe8;
+  color: rgb(16, 15, 15);
   font-size: 20px;
 }
 .contact-right button {

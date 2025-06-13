@@ -9,19 +9,18 @@ const Project_Data = [
   },
   {
     s_no: "02",
-    project_name: "Waiter Tips Prediction",
+    project_name: "UI Designs",
     project_description:
-      "A system that predicts appropriate tipping amounts based on contextual dining factors such as restaurant type, party size, total bill amount, service quality, and cultural tipping norms. It helps standardize tip calculation using logic or machine learning models.",
-    Language: "Language : Python",
+      "Created clean and responsive UI designs using Figma, including sign-up pages, dashboard layouts, and mobile app duplicates. Focused on user-centric design principles, visual consistency, and intuitive navigation. Each interface was designed to enhance usability and provide a seamless user experience, showcasing strong proficiency in layout structuring, component design, and interactive prototyping.",
     Platform: "Platform : Google Colaboratory",
   },
   {
     s_no: "03",
-    project_name: "Movie Recommendation System",
+    project_name: "Protfolio",
     project_description:
-      "A personalized recommendation engine that suggests movies based on user behavior, preferences, or similarity to other users. It utilizes collaborative filtering, content-based filtering, or hybrid models to offer relevant and engaging film recommendations.",
-    Language: "Language : Python",
-    Platform: "Platform : Google Colaboratory",
+      "This React and Vite-powered portfolio website features sections like About, Projects, Internship, and Contact. It includes send-mail functionality for direct communication and offers resume viewing and downloading. With a clean, responsive design, the site effectively highlights skills, experience, and achievements, making it ideal for showcasing a professional profile to potential employers or collaborators.",
+    Language: "Language : React, HTML, CSS, JavaScript",
+    Platform: "Platform : VisualStudio",
   },
   {
     s_no: "04",

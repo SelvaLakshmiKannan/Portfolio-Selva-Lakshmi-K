@@ -6,13 +6,14 @@ const Hero = () => {
   return (
     <div id="hero" className="hero">
       <img src={profile} alt="profile " />
-      <h1>I'm Selva Lakshmi K Frontend Developer</h1>
+      <h1>I'm Selva Lakshmi K </h1>
       <p>
-        Creative and detail-oriented frontend developer skilled in React, HTML,
-        CSS, and JavaScript. Passionate about building intuitive and accessible
-        user interfaces that enhance digital experiences. Committed to writing
-        clean, maintainable code and staying updated with the latest web
-        technologies to deliver impactful web solutions.
+        Creative and detail-oriented fresher skilled in React, HTML, CSS,
+        JavaScript, and UI/UX design. Passionate about building intuitive,
+        accessible user interfaces and engaging user experiences. Committed to
+        writing clean, maintainable code and staying updated with the latest web
+        and design technologies to deliver impactful, user-centered digital
+        solutions.
       </p>
       <div className="hero-action">
         <div className="hero-connect">

@@ -1,4 +1,5 @@
 import React from "react";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import "./About.css";
 
 const About = () => {
@@ -10,15 +11,15 @@ const About = () => {
       <div className="about-content">
         <div className="about-para">
           <p>
-            As a results-driven frontend developer, I specialize in creating
-            responsive and user-focused web interfaces using modern frontend
-            languages and frameworks. With a strong understanding of UI/UX
-            principles, I enjoy transforming design concepts into seamless
-            digital experiences. I am passionate about solving real-world
-            problems through code and continuously improving my skill set. I
-            thrive in collaborative environments that value innovation,
-            precision, and continuous learning to deliver high-quality, scalable
-            solutions.
+            Versatile and results-driven Frontend Developer and UI/UX Designer
+            with a strong foundation in React, HTML, CSS, and JavaScript.
+            Proficient in crafting responsive, user-focused web applications and
+            intuitive UI designs using tools like Figma. Skilled in transforming
+            design concepts into seamless digital experiences, backed by user
+            research and clean, scalable code. Passionate about solving
+            real-world problems through technology, thriving in collaborative
+            environments that value innovation, precision, and continuous
+            learning to deliver impactful, high-quality web solutions.
           </p>
         </div>
         <div className="about-subsection">
@@ -62,15 +63,25 @@ const About = () => {
                 <strong>Percentage:</strong> 84.4%
               </p>
             </div>
-            <div className="linkedin">
+            <div className="social-links">
               <p>
-                <strong>LinkedIn:</strong>{" "}
+                <FaLinkedin />{" "}
                 <a
                   href="https://www.linkedin.com/in/selva-lakshmi-k"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  www.linkedin.com/in/selva-lakshmi-k
+                  linkedin.com/in/selva-lakshmi-k
+                </a>
+              </p>
+              <p>
+                <FaGithub />{" "}
+                <a
+                  href="https://github.com/SelvaLakshmiKannan"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  github.com/SelvaLakshmiKannan
                 </a>
               </p>
             </div>
