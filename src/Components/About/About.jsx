@@ -36,7 +36,7 @@ const About = () => {
                 <strong>Year of Passing:</strong> 2025
               </p>
               <p>
-                <strong>CGPA:</strong> 7.87 (upto 7th sem)
+                <strong>CGPA:</strong> 8.0 CGPA
               </p>
             </div>
             <div className="edu-item">
