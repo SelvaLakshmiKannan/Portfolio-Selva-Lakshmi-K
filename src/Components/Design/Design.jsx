@@ -11,6 +11,7 @@ import Music_App from "../../assets/Music_App.png";
 import Instant_Animation from "../../assets/Instant_Animation_.mp4";
 import Scroll_Animation from "../../assets/Scroll_Animation.mp4";
 import Facebook_Prototype from "../../assets/Facebook_Prototype.mp4";
+import Dropdown_Prototype from "../../assets/Dropdown_Prototype.mp4";
 
 const designData = [
   { img: Cafe_App, name: "Cafe App", animation: "fade-in" },
@@ -28,6 +29,7 @@ const videoData = [
     animation: "slide-in-left",
   },
   { src: Facebook_Prototype, name: "Facebook Prototype", animation: "fade-in" },
+  { src: Dropdown_Prototype, name: "Dropdown Prototype", animation: "fade-in" },
 ];
 
 const Design = () => {

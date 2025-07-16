@@ -58,10 +58,10 @@
   transform: scale(1.05);
   text-decoration: none;
 }
-.nav-mob-close {
+.nav-mob-open {
   display: none;
 }
-.nav-mob-open {
+.nav-mob-toggle {
   display: none;
 }
 
@@ -86,7 +86,7 @@
     z-index: 3;
   }
 
-  .nav-mob-close {
+  .nav-mob-toggle {
     display: block;
     position: absolute;
     top: 25px;
@@ -94,6 +94,7 @@
     height: 30px;
     width: 40px;
     cursor: pointer;
+    z-index: 3;
   }
 
   .nav-menu {
