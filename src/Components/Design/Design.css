@@ -4,7 +4,7 @@
 }
 
 .design-title {
-  font-size: 2.5rem;
+  font-size: 80px;
   font-weight: bold;
   text-align: center;
   margin-bottom: 40px;
@@ -142,18 +142,10 @@
 }
 
 .video-card p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
-  font-size: 22px;
+  margin-top: 12px;
+  font-size: 25px;
   font-weight: bold;
-  color: #fff;
-  opacity: 1;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
-  pointer-events: none;
-  z-index: 2;
+  color: white;
 }
 
 .play-btn {
@@ -263,7 +255,7 @@
   }
 
   .design-gallery {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
@@ -273,9 +265,6 @@
 
   .design-card p {
     font-size: 20px;
-    background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
 }
 
@@ -296,9 +285,6 @@
 
   .video-card p {
     font-size: 20px;
-    background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
 
   .video-modal-content {
