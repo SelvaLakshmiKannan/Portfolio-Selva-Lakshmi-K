@@ -276,6 +276,7 @@
 
   .design-card img,
   .video-card video {
+    filter: none !important;
     height: 220px;
   }
 
