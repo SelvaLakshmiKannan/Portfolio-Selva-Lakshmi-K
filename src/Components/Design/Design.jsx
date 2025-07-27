@@ -4,11 +4,11 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 import Cafe_App from "../../assets/Cafe_App.png";
 import Delivery_App from "../../assets/Delivery_App.png";
-import Project_Dashboard from "../../assets/Project_Dashboard.png";
 import FB_App from "../../assets/FB_App.png";
 import Music_App from "../../assets/Music_App.png";
 import Gmail from "../../assets/Gmail.png";
 import Login_Page from "../../assets/Login_Page.png";
+import Food_Ordering_App from "../../assets/Food_Ordering_App.png";
 
 import Instant_Animation from "../../assets/Instant_Animation_.mp4";
 import Scroll_Animation from "../../assets/Scroll_Animation.mp4";
@@ -17,15 +17,16 @@ import Dropdown_Prototype from "../../assets/Dropdown_Prototype.mp4";
 import Splash_Screen from "../../assets/Splash_Screen.mp4";
 import Liquid_Loading from "../../assets/Liquid_Loading.mp4";
 import Login_Register_Page from "../../assets/Login_Register_Page.mp4";
+import Food_Order_App from "../../assets/Food_Order_App.mp4";
 
 const designData = [
   { img: Cafe_App, name: "Cafe App", animation: "fade-in" },
   { img: Delivery_App, name: "Delivery App", animation: "slide-in-left" },
-  { img: Project_Dashboard, name: "Project Dashboard", animation: "zoom-in" },
   { img: FB_App, name: "Facebook App", animation: "zoom-out" },
   { img: Music_App, name: "Music App", animation: "flip-in" },
   { img: Gmail, name: "Gmail Desktop View", animation: "zoom-out" },
   { img: Login_Page, name: "Login & Registration Page", animation: "fade-in" },
+  { img: Food_Ordering_App, name: "Food Ordering App", animation: "fade-in" },
 ];
 
 const videoData = [
@@ -44,6 +45,7 @@ const videoData = [
     name: "Login & Register Page",
     animation: "fade-in",
   },
+  { src: Food_Order_App, name: "Food Order App", animation: "fade-in" },
 ];
 
 const Design = () => {
