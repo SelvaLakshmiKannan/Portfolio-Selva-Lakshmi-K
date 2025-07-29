@@ -194,6 +194,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 import Cafe_App from "../../assets/Cafe_App.png";
 import Delivery_App from "../../assets/Delivery_App.png";
+import Saas_Dashboard from "../../assets/Saas_Dashboard.png";
 import FB_App from "../../assets/FB_App.png";
 import Music_App from "../../assets/Music_App.png";
 import Gmail from "../../assets/Gmail.png";
@@ -214,6 +215,7 @@ import Mesh_Gradient_Effect from "../../assets/Mesh_Gradient_Effect.mp4";
 const designData = [
   { img: Cafe_App, name: "Cafe App", animation: "fade-in" },
   { img: Delivery_App, name: "Delivery App", animation: "slide-in-left" },
+  { img: Saas_Dashboard, name: "Saas Dashboard", animation: "fade-in" },
   { img: FB_App, name: "Facebook App", animation: "zoom-out" },
   { img: Music_App, name: "Music App", animation: "flip-in" },
   { img: Gmail, name: "Gmail Desktop View", animation: "zoom-out" },
