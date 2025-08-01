@@ -22,7 +22,7 @@ import Liquid_Loading from "../../assets/Liquid_Loading.mp4";
 import Login_Register_Page from "../../assets/Login_Register_Page.mp4";
 import Food_Order_App from "../../assets/Food_Order_App.mp4";
 import Mesh_Gradient_Effect from "../../assets/Mesh_Gradient_Effect.mp4";
-import Use_Management_Workflow from "../../assets/User_Management_Workflow.mp4";
+import User_Management_Workflow from "../../assets/User_Management_Workflow.mp4";
 
 const designData = [
   { img: Cafe_App, name: "Cafe App", animation: "fade-in" },
