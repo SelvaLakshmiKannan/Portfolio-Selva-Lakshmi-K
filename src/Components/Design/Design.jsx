@@ -11,6 +11,7 @@ import Gmail from "../../assets/Gmail.png";
 import Login_Page from "../../assets/Login_Page.png";
 import Food_Ordering_App from "../../assets/Food_Ordering_App.png";
 import Mesh_Gradient_Design from "../../assets/Mesh_Gradient_Design.png";
+import User_Management from "../../assets/User_Management.png";
 
 import Instant_Animation from "../../assets/Instant_Animation_.mp4";
 import Scroll_Animation from "../../assets/Scroll_Animation.mp4";
@@ -21,11 +22,13 @@ import Liquid_Loading from "../../assets/Liquid_Loading.mp4";
 import Login_Register_Page from "../../assets/Login_Register_Page.mp4";
 import Food_Order_App from "../../assets/Food_Order_App.mp4";
 import Mesh_Gradient_Effect from "../../assets/Mesh_Gradient_Effect.mp4";
+import Use_Management_Workflow from "../../assets/User_Management_Workflow.mp4";
 
 const designData = [
   { img: Cafe_App, name: "Cafe App", animation: "fade-in" },
   { img: Delivery_App, name: "Delivery App", animation: "slide-in-left" },
   { img: Saas_Dashboard, name: "Saas Dashboard", animation: "fade-in" },
+  { img: User_Management, name: "User Management", animation: "fade-in" },
   { img: FB_App, name: "Facebook App", animation: "zoom-out" },
   { img: Music_App, name: "Music App", animation: "flip-in" },
   { img: Gmail, name: "Gmail Desktop View", animation: "zoom-out" },
@@ -44,6 +47,11 @@ const videoData = [
     src: Scroll_Animation,
     name: "Scroll Animation",
     animation: "slide-in-left",
+  },
+  {
+    src: User_Management_Workflow,
+    name: "User Management Workflow",
+    animation: "fade-in",
   },
   { src: Facebook_Prototype, name: "Facebook Prototype", animation: "fade-in" },
   { src: Dropdown_Prototype, name: "Dropdown Prototype", animation: "fade-in" },
