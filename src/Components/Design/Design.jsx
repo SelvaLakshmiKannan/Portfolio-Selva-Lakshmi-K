@@ -12,6 +12,7 @@ import Login_Page from "../../assets/Login_Page.png";
 import Food_Ordering_App from "../../assets/Food_Ordering_App.png";
 import Mesh_Gradient_Design from "../../assets/Mesh_Gradient_Design.png";
 import User_Management from "../../assets/User_Management.png";
+import Parallax_Effect_Website from "../../assets/Parallax_Effect_Website.png";
 
 import Instant_Animation from "../../assets/Instant_Animation_.mp4";
 import Scroll_Animation from "../../assets/Scroll_Animation.mp4";
@@ -23,6 +24,7 @@ import Login_Register_Page from "../../assets/Login_Register_Page.mp4";
 import Food_Order_App from "../../assets/Food_Order_App.mp4";
 import Mesh_Gradient_Effect from "../../assets/Mesh_Gradient_Effect.mp4";
 import User_Management_Workflow from "../../assets/User_Management_Workflow.mp4";
+import Parallax_Scroll_Effect from "../../assets/Parallax_Scroll_Effect.mp4";
 
 const designData = [
   { img: Cafe_App, name: "Cafe App", animation: "fade-in" },
@@ -37,6 +39,11 @@ const designData = [
   {
     img: Mesh_Gradient_Design,
     name: "Mesh Gradient Design",
+    animation: "fade-in",
+  },
+  {
+    img: Parallax_Effect_Website,
+    name: "Parallax Effect Website",
     animation: "fade-in",
   },
 ];
@@ -56,6 +63,11 @@ const videoData = [
   { src: Facebook_Prototype, name: "Facebook Prototype", animation: "fade-in" },
   { src: Dropdown_Prototype, name: "Dropdown Prototype", animation: "fade-in" },
   { src: Splash_Screen, name: "Splash Screen", animation: "fade-in" },
+  {
+    src: Parallax_Scroll_Effect,
+    name: "Parallax Scroll Effect",
+    animation: "fade-in",
+  },
   { src: Liquid_Loading, name: "Liquid Loading", animation: "fade-in" },
   {
     src: Login_Register_Page,
