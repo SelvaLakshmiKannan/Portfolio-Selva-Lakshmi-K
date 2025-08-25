@@ -13,6 +13,7 @@ import Food_Ordering_App from "../../assets/Food_Ordering_App.png";
 import Mesh_Gradient_Design from "../../assets/Mesh_Gradient_Design.png";
 import User_Management from "../../assets/User_Management.png";
 import Parallax_Effect_Website from "../../assets/Parallax_Effect_Website.png";
+import Netflix from "../../assets/Netflix.png";
 
 import Instant_Animation from "../../assets/Instant_Animation_.mp4";
 import Scroll_Animation from "../../assets/Scroll_Animation.mp4";
@@ -25,6 +26,7 @@ import Food_Order_App from "../../assets/Food_Order_App.mp4";
 import Mesh_Gradient_Effect from "../../assets/Mesh_Gradient_Effect.mp4";
 import User_Management_Workflow from "../../assets/User_Management_Workflow.mp4";
 import Parallax_Scroll_Effect from "../../assets/Parallax_Scroll_Effect.mp4";
+import Netflix_Prototype from "../../assets/Netflix_Prototype.mp4";
 
 const designData = [
   { img: Cafe_App, name: "Cafe App", animation: "fade-in" },
@@ -32,6 +34,7 @@ const designData = [
   { img: Saas_Dashboard, name: "Saas Dashboard", animation: "fade-in" },
   { img: User_Management, name: "User Management", animation: "fade-in" },
   { img: FB_App, name: "Facebook App", animation: "zoom-out" },
+  { img: Netflix, name: "Netflix Layout", animation: "fade-in" },
   { img: Music_App, name: "Music App", animation: "flip-in" },
   { img: Gmail, name: "Gmail Desktop View", animation: "zoom-out" },
   { img: Login_Page, name: "Login & Registration Page", animation: "fade-in" },
@@ -50,6 +53,7 @@ const designData = [
 
 const videoData = [
   { src: Instant_Animation, name: "Instant Animation", animation: "fade-in" },
+  { src: Netflix_Prototype, name: "Netflix Prototype", animation: "fade-in" },
   {
     src: Scroll_Animation,
     name: "Scroll Animation",
