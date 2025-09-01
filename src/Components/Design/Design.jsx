@@ -6,6 +6,7 @@ import Cafe_App from "../../assets/Cafe_App.png";
 import Delivery_App from "../../assets/Delivery_App.png";
 import Saas_Dashboard from "../../assets/Saas_Dashboard.png";
 import FB_App from "../../assets/FB_App.png";
+import VR_Website from "../../assets/VR_Website.png";
 import Music_App from "../../assets/Music_App.png";
 import Gmail from "../../assets/Gmail.png";
 import Login_Page from "../../assets/Login_Page.png";
@@ -33,6 +34,7 @@ const designData = [
   { img: Delivery_App, name: "Delivery App", animation: "slide-in-left" },
   { img: Saas_Dashboard, name: "Saas Dashboard", animation: "fade-in" },
   { img: User_Management, name: "User Management", animation: "fade-in" },
+  { img: VR_Website, name: "Virutal Reality Website", animation: "fade-in" },
   { img: FB_App, name: "Facebook App", animation: "zoom-out" },
   { img: Netflix, name: "Netflix Layout", animation: "fade-in" },
   { img: Music_App, name: "Music App", animation: "flip-in" },

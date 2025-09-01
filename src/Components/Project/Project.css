@@ -49,6 +49,24 @@
   transform: scale(1.05);
   transition: 0.4s;
 }
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.github-link:hover {
+  color: blue;
+}
+
+.github-icon svg {
+  font-size: 22px;
+  margin-right: 10px;
+}
 @media (min-width: 250px) and (max-width: 768px) {
   .project {
     margin: 40px 20px;
@@ -75,5 +93,21 @@
   .project-format p {
     font-size: 16px;
     text-align: justify;
+  }
+  .github-link {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .github-link:hover {
+    color: blue;
+  }
+  .github-icon svg {
+    font-size: 22px;
+    margin-right: 8px;
   }
 }
