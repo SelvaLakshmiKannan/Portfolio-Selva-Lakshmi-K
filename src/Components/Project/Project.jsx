@@ -20,18 +20,21 @@ const Project = () => {
               <h3>{project.Platform}</h3>
 
               {project.github && Array.isArray(project.github) ? (
-                project.github.map((link, i) => (
-                  <a
-                    key={i}
-                    href={link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="github-link"
-                  >
-                    <FaGithub className="github-icon" />
-                    <span>View on GitHub {i + 1}</span>
-                  </a>
-                ))
+                project.github.map((link, i) => {
+                  const labels = ["Design", "Prototype"];
+                  return (
+                    <a
+                      key={i}
+                      href={link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="github-link"
+                    >
+                      <FaGithub className="github-icon" />
+                      <span>View {labels[i] || `Link ${i + 1}`}</span>
+                    </a>
+                  );
+                })
               ) : project.github ? (
                 <a
                   href={project.github}

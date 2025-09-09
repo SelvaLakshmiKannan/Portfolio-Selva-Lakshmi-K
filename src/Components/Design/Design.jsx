@@ -3,6 +3,8 @@ import "./Design.css";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 import Cafe_App from "../../assets/Cafe_App.png";
+import Movie_Ticket_Booking from "../../assets/Movie_Ticket_Booking.png";
+import Figma_Logo from "../../assets/Figma_Logo.png";
 import Delivery_App from "../../assets/Delivery_App.png";
 import Saas_Dashboard from "../../assets/Saas_Dashboard.png";
 import FB_App from "../../assets/FB_App.png";
@@ -30,17 +32,23 @@ import Parallax_Scroll_Effect from "../../assets/Parallax_Scroll_Effect.mp4";
 import Netflix_Prototype from "../../assets/Netflix_Prototype.mp4";
 
 const designData = [
-  { img: Cafe_App, name: "Cafe App", animation: "fade-in" },
-  { img: Delivery_App, name: "Delivery App", animation: "slide-in-left" },
+  { img: VR_Website, name: "Virutal Reality Website", animation: "fade-in" },
+  {
+    img: Movie_Ticket_Booking,
+    name: "Movie Ticket Booking",
+    animation: "fade-in",
+  },
   { img: Saas_Dashboard, name: "Saas Dashboard", animation: "fade-in" },
   { img: User_Management, name: "User Management", animation: "fade-in" },
-  { img: VR_Website, name: "Virutal Reality Website", animation: "fade-in" },
   { img: FB_App, name: "Facebook App", animation: "zoom-out" },
-  { img: Netflix, name: "Netflix Layout", animation: "fade-in" },
-  { img: Music_App, name: "Music App", animation: "flip-in" },
-  { img: Gmail, name: "Gmail Desktop View", animation: "zoom-out" },
-  { img: Login_Page, name: "Login & Registration Page", animation: "fade-in" },
+  { img: Delivery_App, name: "Delivery App", animation: "slide-in-left" },
   { img: Food_Ordering_App, name: "Food Ordering App", animation: "fade-in" },
+  { img: Netflix, name: "Netflix Layout", animation: "fade-in" },
+  { img: Figma_Logo, name: "Figma Logo", animation: "fade-in" },
+  { img: Gmail, name: "Gmail Desktop View", animation: "zoom-out" },
+  { img: Music_App, name: "Music App", animation: "flip-in" },
+  { img: Login_Page, name: "Login & Registration Page", animation: "fade-in" },
+  { img: Cafe_App, name: "Cafe App", animation: "fade-in" },
   {
     img: Mesh_Gradient_Design,
     name: "Mesh Gradient Design",
