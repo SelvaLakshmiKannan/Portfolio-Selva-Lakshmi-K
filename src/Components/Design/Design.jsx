@@ -10,6 +10,8 @@ import Saas_Dashboard from "../../assets/Saas_Dashboard.png";
 import FB_App from "../../assets/FB_App.png";
 import VR_Website from "../../assets/VR_Website.png";
 import Music_App from "../../assets/Music_App.png";
+import Basic_Website from "../../assets/Basic_Website.png";
+import Website_Wireframe from "../../assets/Website_Wireframe.png";
 import Gmail from "../../assets/Gmail.png";
 import Login_Page from "../../assets/Login_Page.png";
 import Food_Ordering_App from "../../assets/Food_Ordering_App.png";
@@ -42,6 +44,8 @@ const designData = [
   { img: User_Management, name: "User Management", animation: "fade-in" },
   { img: FB_App, name: "Facebook App", animation: "zoom-out" },
   { img: Delivery_App, name: "Delivery App", animation: "slide-in-left" },
+  { img: Basic_Website, name: "Basic Website", animation: "fade-in" },
+  { img: Website_Wireframe, name: "Website Wireframe", animation: "fade-in" },
   { img: Food_Ordering_App, name: "Food Ordering App", animation: "fade-in" },
   { img: Netflix, name: "Netflix Layout", animation: "fade-in" },
   { img: Figma_Logo, name: "Figma Logo", animation: "fade-in" },
