@@ -9,6 +9,11 @@ import Delivery_App from "../../assets/Delivery_App.png";
 import Saas_Dashboard from "../../assets/Saas_Dashboard.png";
 import FB_App from "../../assets/FB_App.png";
 import VR_Website from "../../assets/VR_Website.png";
+import AboutUs_Page from "../../assets/AboutUS_Page.png";
+import Blogs_Page from "../../assets/Blogs_Page.png";
+import Careers_Page from "../../assets/Careers_Page.png";
+import Contact_Page from "../../assets/Contact_Page.png";
+import Main_Frame from "../../assets/Main_Frame.png";
 import Music_App from "../../assets/Music_App.png";
 import Basic_Website from "../../assets/Basic_Website.png";
 import Website_Wireframe from "../../assets/Website_Wireframe.png";
@@ -45,6 +50,11 @@ const designData = [
   { img: FB_App, name: "Facebook App", animation: "zoom-out" },
   { img: Delivery_App, name: "Delivery App", animation: "slide-in-left" },
   { img: Basic_Website, name: "Basic Website", animation: "fade-in" },
+  { img: Main_Frame, name: "Main _Frame" },
+  { img: AboutUs_Page, name: "AboutUs Page" },
+  { img: Blogs_Page, name: "Blogs Page" },
+  { img: Careers_Page, name: "Careers Page" },
+  { img: Contact_Page, name: "Contact Page" },
   { img: Website_Wireframe, name: "Website Wireframe", animation: "fade-in" },
   { img: Food_Ordering_App, name: "Food Ordering App", animation: "fade-in" },
   { img: Netflix, name: "Netflix Layout", animation: "fade-in" },
