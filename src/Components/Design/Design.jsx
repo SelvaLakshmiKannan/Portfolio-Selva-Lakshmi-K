@@ -18,6 +18,7 @@ import Music_App from "../../assets/Music_App.png";
 import Basic_Website from "../../assets/Basic_Website.png";
 import Website_Wireframe from "../../assets/Website_Wireframe.png";
 import Gmail from "../../assets/Gmail.png";
+import JobHunt_Website from "../../assets/JobHunt_Website.png";
 import Login_Page from "../../assets/Login_Page.png";
 import Food_Ordering_App from "../../assets/Food_Ordering_App.png";
 import Mesh_Gradient_Design from "../../assets/Mesh_Gradient_Design.png";
@@ -47,6 +48,7 @@ const designData = [
   },
   { img: Saas_Dashboard, name: "Saas Dashboard", animation: "fade-in" },
   { img: User_Management, name: "User Management", animation: "fade-in" },
+  { img: JobHunt_Website, name: "Job Hunt Website" },
   { img: FB_App, name: "Facebook App", animation: "zoom-out" },
   { img: Delivery_App, name: "Delivery App", animation: "slide-in-left" },
   { img: Basic_Website, name: "Basic Website", animation: "fade-in" },
