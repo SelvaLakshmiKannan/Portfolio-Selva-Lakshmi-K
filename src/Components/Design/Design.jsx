@@ -14,6 +14,7 @@ import Blogs_Page from "../../assets/Blogs_Page.png";
 import Careers_Page from "../../assets/Careers_Page.png";
 import Contact_Page from "../../assets/Contact_Page.png";
 import Main_Frame from "../../assets/Main_Frame.png";
+import Travel_Page_IG_Post from "../../assets/Travel_Page_IG_Post.png";
 import Music_App from "../../assets/Music_App.png";
 import Basic_Website from "../../assets/Basic_Website.png";
 import Website_Wireframe from "../../assets/Website_Wireframe.png";
@@ -49,6 +50,7 @@ const designData = [
   { img: Saas_Dashboard, name: "Saas Dashboard", animation: "fade-in" },
   { img: User_Management, name: "User Management", animation: "fade-in" },
   { img: JobHunt_Website, name: "Job Hunt Website" },
+  { img: Travel_Page_IG_Post, name: "Instagram Post Design" },
   { img: FB_App, name: "Facebook App", animation: "zoom-out" },
   { img: Delivery_App, name: "Delivery App", animation: "slide-in-left" },
   { img: Basic_Website, name: "Basic Website", animation: "fade-in" },
