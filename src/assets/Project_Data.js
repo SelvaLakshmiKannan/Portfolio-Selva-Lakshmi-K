@@ -12,7 +12,7 @@ const Project_Data = [
   },
   {
     s_no: "02",
-    project_name: "Protfolio",
+    project_name: "Portfolio",
     project_description:
       "This React and Vite-powered portfolio website features sections like About, Projects, Internship, and Contact...",
     Language: "Language : React, HTML, CSS, JavaScript",

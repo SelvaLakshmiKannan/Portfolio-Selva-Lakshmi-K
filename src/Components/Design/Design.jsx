@@ -54,7 +54,7 @@ const designData = [
   { img: FB_App, name: "Facebook App", animation: "zoom-out" },
   { img: Delivery_App, name: "Delivery App", animation: "slide-in-left" },
   { img: Basic_Website, name: "Basic Website", animation: "fade-in" },
-  { img: Main_Frame, name: "Main _Frame" },
+  { img: Main_Frame, name: "Main Frame" },
   { img: AboutUs_Page, name: "AboutUs Page" },
   { img: Blogs_Page, name: "Blogs Page" },
   { img: Careers_Page, name: "Careers Page" },
