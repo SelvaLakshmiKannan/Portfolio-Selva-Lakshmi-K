@@ -7,6 +7,16 @@ import Movie_Ticket_Booking from "../../assets/Movie_Ticket_Booking.png";
 import Figma_Logo from "../../assets/Figma_Logo.png";
 import Delivery_App from "../../assets/Delivery_App.png";
 import Saas_Dashboard from "../../assets/Saas_Dashboard.png";
+import Novel_App from "../../assets/Novel_App.png";
+import Skill_Exchange_App_Wireframe from "../../assets/Skill_Exchange_App_Wireframe.png";
+import Skill_Exchange_App from "../../assets/Skill_Exchange_App.png";
+import New_Task from "../../assets/New_Task.png";
+import Edit_Task from "../../assets/Edit_Task.png";
+import Assign_Task from "../../assets/Assign_Task.png";
+import Skincare_Brand from "../../assets/Skincare_Brand.png";
+import Dashboard from "../../assets/Dashboard.png";
+import Delete_Task from "../../assets/Delete_Task.png";
+import Service_Booking_App from "../../assets/Service_Booking_App.png";
 import FB_App from "../../assets/FB_App.png";
 import VR_Website from "../../assets/VR_Website.png";
 import AboutUs_Page from "../../assets/AboutUS_Page.png";
@@ -51,6 +61,8 @@ const designData = [
   { img: User_Management, name: "User Management", animation: "fade-in" },
   { img: JobHunt_Website, name: "Job Hunt Website" },
   { img: Travel_Page_IG_Post, name: "Instagram Post Design" },
+  { img: Novel_App, name: "Novel App" },
+  { img: Skincare_Brand, name: "Skincare Brand" },
   { img: FB_App, name: "Facebook App", animation: "zoom-out" },
   { img: Delivery_App, name: "Delivery App", animation: "slide-in-left" },
   { img: Basic_Website, name: "Basic Website", animation: "fade-in" },
@@ -59,8 +71,16 @@ const designData = [
   { img: Blogs_Page, name: "Blogs Page" },
   { img: Careers_Page, name: "Careers Page" },
   { img: Contact_Page, name: "Contact Page" },
+  { img: Skill_Exchange_App_Wireframe, name: "Skill Exchange App Wireframe" },
+  { img: Skill_Exchange_App, name: "Skill Exchange App" },
+  { img: New_Task, name: "New Task" },
+  { img: Edit_Task, name: "Edit Task" },
+  { img: Assign_Task, name: "Assign Task" },
+  { img: Dashboard, name: "Dashboard" },
+  { img: Delete_Task, name: "Delete Task" },
   { img: Website_Wireframe, name: "Website Wireframe", animation: "fade-in" },
   { img: Food_Ordering_App, name: "Food Ordering App", animation: "fade-in" },
+  { img: Service_Booking_App, name: "Service Booking App" },
   { img: Netflix, name: "Netflix Layout", animation: "fade-in" },
   { img: Figma_Logo, name: "Figma Logo", animation: "fade-in" },
   { img: Gmail, name: "Gmail Desktop View", animation: "zoom-out" },
