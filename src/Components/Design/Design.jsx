@@ -8,8 +8,11 @@ import Figma_Logo from "../../assets/Figma_Logo.png";
 import Delivery_App from "../../assets/Delivery_App.png";
 import Saas_Dashboard from "../../assets/Saas_Dashboard.png";
 import Novel_App from "../../assets/Novel_App.png";
+import Food_Delivery_App_LT from "../../assets/Food_Delivery_App_Lt.png";
+import Food_Delivery_App_DT from "../../assets/Food_Delivery_App_DT.png";
 import Skill_Exchange_App_Wireframe from "../../assets/Skill_Exchange_App_Wireframe.png";
 import Skill_Exchange_App from "../../assets/Skill_Exchange_App.png";
+import skincare_Brand from "../../assets/skincare_Brand.png";
 import New_Task from "../../assets/New_Task.png";
 import Edit_Task from "../../assets/Edit_Task.png";
 import Assign_Task from "../../assets/Assign_Task.png";
@@ -62,6 +65,8 @@ const designData = [
   { img: JobHunt_Website, name: "Job Hunt Website" },
   { img: Travel_Page_IG_Post, name: "Instagram Post Design" },
   { img: Novel_App, name: "Novel App" },
+  { img: Food_Delivery_App_LT, name: "Food Delivery App Light Theme" },
+  { img: Food_Delivery_App_DT, name: "Food Delivery App Dark Theme" },
   { img: Skincare_Brand, name: "Skincare Brand" },
   { img: FB_App, name: "Facebook App", animation: "zoom-out" },
   { img: Delivery_App, name: "Delivery App", animation: "slide-in-left" },
