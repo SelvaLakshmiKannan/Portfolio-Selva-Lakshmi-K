@@ -12,7 +12,9 @@ import Food_Delivery_App_LT from "../../assets/Food_Delivery_App_Lt.png";
 import Food_Delivery_App_DT from "../../assets/Food_Delivery_App_DT.png";
 import Skill_Exchange_App_Wireframe from "../../assets/Skill_Exchange_App_Wireframe.png";
 import Skill_Exchange_App from "../../assets/Skill_Exchange_App.png";
-import skincare_Brand from "../../assets/skincare_Brand.png";
+import Govt_Website_Modal from "../../assets/Govt_Website_Modal.png";
+import Hotel_Booking_Website from "../../assets/Hotel_Booking_Website.png";
+import Mobile_View from "../../assets/Mobile_View.png";
 import New_Task from "../../assets/New_Task.png";
 import Edit_Task from "../../assets/Edit_Task.png";
 import Assign_Task from "../../assets/Assign_Task.png";
@@ -70,6 +72,9 @@ const designData = [
   { img: Skincare_Brand, name: "Skincare Brand" },
   { img: FB_App, name: "Facebook App", animation: "zoom-out" },
   { img: Delivery_App, name: "Delivery App", animation: "slide-in-left" },
+  { img: Hotel_Booking_Website, name: "Hotel Booking Website" },
+  { img: Govt_Website_Modal, name: "Website Modal" },
+  { img: Mobile_View, name: "Mobile View" },
   { img: Basic_Website, name: "Basic Website", animation: "fade-in" },
   { img: Main_Frame, name: "Main Frame" },
   { img: AboutUs_Page, name: "AboutUs Page" },
