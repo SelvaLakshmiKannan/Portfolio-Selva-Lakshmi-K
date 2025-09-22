@@ -13,6 +13,7 @@ import Food_Delivery_App_DT from "../../assets/Food_Delivery_App_DT.png";
 import Skill_Exchange_App_Wireframe from "../../assets/Skill_Exchange_App_Wireframe.png";
 import Skill_Exchange_App from "../../assets/Skill_Exchange_App.png";
 import Govt_Website_Modal from "../../assets/Govt_Website_Modal.png";
+import Learning_App from "../../assets/Learning_App.png";
 import Hotel_Booking_Website from "../../assets/Hotel_Booking_Website.png";
 import Mobile_View from "../../assets/Mobile_View.png";
 import New_Task from "../../assets/New_Task.png";
@@ -63,6 +64,7 @@ const designData = [
     animation: "fade-in",
   },
   { img: Saas_Dashboard, name: "Saas Dashboard", animation: "fade-in" },
+  { img: Learning_App, name: "Learning App" },
   { img: User_Management, name: "User Management", animation: "fade-in" },
   { img: JobHunt_Website, name: "Job Hunt Website" },
   { img: Travel_Page_IG_Post, name: "Instagram Post Design" },
