@@ -44,6 +44,7 @@ import Parallax_Effect_Website from "../../assets/Parallax_Effect_Website.png";
 import Netflix from "../../assets/Netflix.png";
 
 import Instant_Animation from "../../assets/Instant_Animation_.mp4";
+import Splash_Screen_Animation from "../../assets/Splash_Screen_Animation.mp4";
 import Scroll_Animation from "../../assets/Scroll_Animation.mp4";
 import Facebook_Prototype from "../../assets/Facebook_Prototype.mp4";
 import Dropdown_Prototype from "../../assets/Dropdown_Prototype.mp4";
@@ -112,17 +113,12 @@ const designData = [
 ];
 
 const videoData = [
-  { src: Instant_Animation, name: "Instant Animation", animation: "fade-in" },
+  { src: Splash_Screen_Animation, name: "Splash Screen Animation" },
   { src: Netflix_Prototype, name: "Netflix Prototype", animation: "fade-in" },
   {
     src: Scroll_Animation,
     name: "Scroll Animation",
     animation: "slide-in-left",
-  },
-  {
-    src: User_Management_Workflow,
-    name: "User Management Workflow",
-    animation: "fade-in",
   },
   { src: Facebook_Prototype, name: "Facebook Prototype", animation: "fade-in" },
   { src: Dropdown_Prototype, name: "Dropdown Prototype", animation: "fade-in" },
@@ -142,6 +138,12 @@ const videoData = [
   {
     src: Mesh_Gradient_Effect,
     name: "Mesh Gradient Effect",
+    animation: "fade-in",
+  },
+  { src: Instant_Animation, name: "Instant Animation", animation: "fade-in" },
+  {
+    src: User_Management_Workflow,
+    name: "User Management Workflow",
     animation: "fade-in",
   },
 ];
