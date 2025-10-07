@@ -41,6 +41,8 @@ import Food_Ordering_App from "../../assets/Food_Ordering_App.png";
 import Mesh_Gradient_Design from "../../assets/Mesh_Gradient_Design.png";
 import User_Management from "../../assets/User_Management.png";
 import Parallax_Effect_Website from "../../assets/Parallax_Effect_Website.png";
+import Website from "../../assets/Website.png";
+import Eco_Friendly_Website from "../../assets/Eco_Friendly_Website.png";
 import Netflix from "../../assets/Netflix.png";
 
 import Instant_Animation from "../../assets/Instant_Animation_.mp4";
@@ -52,33 +54,35 @@ import Splash_Screen from "../../assets/Splash_Screen.mp4";
 import Liquid_Loading from "../../assets/Liquid_Loading.mp4";
 import Login_Register_Page from "../../assets/Login_Register_Page.mp4";
 import Food_Order_App from "../../assets/Food_Order_App.mp4";
+import Interactive_Website from "../../assets/Interactive_Website.mp4";
 import Mesh_Gradient_Effect from "../../assets/Mesh_Gradient_Effect.mp4";
 import User_Management_Workflow from "../../assets/User_Management_Workflow.mp4";
 import Parallax_Scroll_Effect from "../../assets/Parallax_Scroll_Effect.mp4";
 import Netflix_Prototype from "../../assets/Netflix_Prototype.mp4";
 
 const designData = [
-  { img: VR_Website, name: "Virutal Reality Website", animation: "fade-in" },
+  { img: VR_Website, name: "Virutal Reality Website" },
   {
     img: Movie_Ticket_Booking,
     name: "Movie Ticket Booking",
     animation: "fade-in",
   },
-  { img: Saas_Dashboard, name: "Saas Dashboard", animation: "fade-in" },
+  { img: Saas_Dashboard, name: "Saas Dashboard" },
   { img: Learning_App, name: "Learning App" },
-  { img: User_Management, name: "User Management", animation: "fade-in" },
+  { img: User_Management, name: "User Management" },
   { img: JobHunt_Website, name: "Job Hunt Website" },
   { img: Travel_Page_IG_Post, name: "Instagram Post Design" },
   { img: Novel_App, name: "Novel App" },
   { img: Food_Delivery_App_LT, name: "Food Delivery App Light Theme" },
   { img: Food_Delivery_App_DT, name: "Food Delivery App Dark Theme" },
   { img: Skincare_Brand, name: "Skincare Brand" },
-  { img: FB_App, name: "Facebook App", animation: "zoom-out" },
-  { img: Delivery_App, name: "Delivery App", animation: "slide-in-left" },
+  { img: FB_App, name: "Facebook App" },
+  { img: Eco_Friendly_Website, name: "Eco Friendly Website" },
+  { img: Delivery_App, name: "Delivery App" },
   { img: Hotel_Booking_Website, name: "Hotel Booking Website" },
   { img: Govt_Website_Modal, name: "Website Modal" },
   { img: Mobile_View, name: "Mobile View" },
-  { img: Basic_Website, name: "Basic Website", animation: "fade-in" },
+  { img: Basic_Website, name: "Basic Website" },
   { img: Main_Frame, name: "Main Frame" },
   { img: AboutUs_Page, name: "AboutUs Page" },
   { img: Blogs_Page, name: "Blogs Page" },
@@ -91,15 +95,16 @@ const designData = [
   { img: Assign_Task, name: "Assign Task" },
   { img: Dashboard, name: "Dashboard" },
   { img: Delete_Task, name: "Delete Task" },
-  { img: Website_Wireframe, name: "Website Wireframe", animation: "fade-in" },
-  { img: Food_Ordering_App, name: "Food Ordering App", animation: "fade-in" },
+  { img: Website_Wireframe, name: "Website Wireframe" },
+  { img: Food_Ordering_App, name: "Food Ordering App" },
+  { img: Website, name: "Website" },
   { img: Service_Booking_App, name: "Service Booking App" },
-  { img: Netflix, name: "Netflix Layout", animation: "fade-in" },
-  { img: Figma_Logo, name: "Figma Logo", animation: "fade-in" },
-  { img: Gmail, name: "Gmail Desktop View", animation: "zoom-out" },
-  { img: Music_App, name: "Music App", animation: "flip-in" },
-  { img: Login_Page, name: "Login & Registration Page", animation: "fade-in" },
-  { img: Cafe_App, name: "Cafe App", animation: "fade-in" },
+  { img: Netflix, name: "Netflix Layout" },
+  { img: Figma_Logo, name: "Figma Logo" },
+  { img: Gmail, name: "Gmail Desktop View" },
+  { img: Music_App, name: "Music App" },
+  { img: Login_Page, name: "Login & Registration Page" },
+  { img: Cafe_App, name: "Cafe App" },
   {
     img: Mesh_Gradient_Design,
     name: "Mesh Gradient Design",
@@ -114,37 +119,33 @@ const designData = [
 
 const videoData = [
   { src: Splash_Screen_Animation, name: "Splash Screen Animation" },
-  { src: Netflix_Prototype, name: "Netflix Prototype", animation: "fade-in" },
+  { src: Netflix_Prototype, name: "Netflix Prototype" },
   {
     src: Scroll_Animation,
     name: "Scroll Animation",
-    animation: "slide-in-left",
   },
-  { src: Facebook_Prototype, name: "Facebook Prototype", animation: "fade-in" },
-  { src: Dropdown_Prototype, name: "Dropdown Prototype", animation: "fade-in" },
-  { src: Splash_Screen, name: "Splash Screen", animation: "fade-in" },
+  { src: Facebook_Prototype, name: "Facebook Prototype" },
+  { src: Dropdown_Prototype, name: "Dropdown Prototype" },
+  { src: Splash_Screen, name: "Splash Screen" },
   {
     src: Parallax_Scroll_Effect,
     name: "Parallax Scroll Effect",
-    animation: "fade-in",
   },
-  { src: Liquid_Loading, name: "Liquid Loading", animation: "fade-in" },
+  { src: Liquid_Loading, name: "Liquid Loading" },
+  { src: Interactive_Website, name: " Interactive Website" },
   {
     src: Login_Register_Page,
     name: "Login & Register Page",
-    animation: "fade-in",
   },
-  { src: Food_Order_App, name: "Food Order App", animation: "fade-in" },
+  { src: Food_Order_App, name: "Food Order App" },
   {
     src: Mesh_Gradient_Effect,
     name: "Mesh Gradient Effect",
-    animation: "fade-in",
   },
-  { src: Instant_Animation, name: "Instant Animation", animation: "fade-in" },
+  { src: Instant_Animation, name: "Instant Animation" },
   {
     src: User_Management_Workflow,
     name: "User Management Workflow",
-    animation: "fade-in",
   },
 ];
 
