@@ -60,6 +60,19 @@ import User_Management_Workflow from "../../assets/User_Management_Workflow.mp4"
 import Parallax_Scroll_Effect from "../../assets/Parallax_Scroll_Effect.mp4";
 import Netflix_Prototype from "../../assets/Netflix_Prototype.mp4";
 
+import clgPosters from "../../assets/clg-posters.gif";
+import groceryPoster from "../../assets/grocery-poster.gif";
+import juicePoster from "../../assets/juice-poster.gif";
+import mallPoster from "../../assets/mall-poster.gif";
+import salePoster from "../../assets/sale-poster.gif";
+import schoolPoster from "../../assets/school-poster.gif";
+import sclPoster from "../../assets/scl-poster.gif";
+
+import vc1 from "../../assets/vc1.gif";
+import vc2 from "../../assets/vc2.gif";
+import vc3 from "../../assets/vc3.gif";
+import vcard from "../../assets/vcard.gif";
+
 const designData = [
   { img: VR_Website, name: "Virutal Reality Website" },
   {
@@ -115,6 +128,20 @@ const designData = [
     name: "Parallax Effect Website",
     animation: "fade-in",
   },
+];
+
+const photoshopData = [
+  { name: "College Poster", img: clgPosters, animation: "fade-up" },
+  { name: "Visiting Card 1", img: vc1, animation: "fade-up" },
+  { name: "Grocery Poster", img: groceryPoster, animation: "fade-up" },
+  { name: "Juice Poster", img: juicePoster, animation: "fade-up" },
+  { name: "Visiting Card 2", img: vc2, animation: "fade-up" },
+  { name: "Mall Poster", img: mallPoster, animation: "fade-up" },
+  { name: "Visiting Card 3", img: vc3, animation: "fade-up" },
+  { name: "Sale Poster", img: salePoster, animation: "fade-up" },
+  { name: "School Poster", img: schoolPoster, animation: "fade-up" },
+  { name: "Social Poster", img: sclPoster, animation: "fade-up" },
+  { name: "Visiting Card 4", img: vcard, animation: "fade-up" },
 ];
 
 const videoData = [
@@ -191,6 +218,25 @@ const Design = () => {
     if (videoStartIndex + itemsPerPage < videoData.length)
       setVideoStartIndex(videoStartIndex + 1);
   };
+  // Photoshop carousel state
+  const [psStartIndex, setPsStartIndex] = useState(0);
+
+  // Visible items
+  const visiblePhotoshop = photoshopData.slice(
+    psStartIndex,
+    psStartIndex + itemsPerPage
+  );
+
+  // Navigation
+  const showPrevPs = () => {
+    if (psStartIndex > 0) setPsStartIndex(psStartIndex - 1);
+  };
+
+  const showNextPs = () => {
+    if (psStartIndex + itemsPerPage < photoshopData.length) {
+      setPsStartIndex(psStartIndex + 1);
+    }
+  };
 
   return (
     <div id="design" className="design-section">
@@ -213,6 +259,30 @@ const Design = () => {
 
         {startIndex + itemsPerPage < designData.length && (
           <button className="nav-btn right" onClick={showNext}>
+            <ChevronRight size={24} />
+          </button>
+        )}
+      </div>
+      <h1 className="design-title">Photoshop Designs</h1>
+
+      <div className="design-carousel">
+        {psStartIndex > 0 && (
+          <button className="nav-btn left" onClick={showPrevPs}>
+            <ChevronLeft size={24} />
+          </button>
+        )}
+
+        <div className="design-gallery">
+          {visiblePhotoshop.map((item, index) => (
+            <div key={index} className={`design-card ${item.animation}`}>
+              <img src={item.img} alt={item.name} loading="lazy" />
+              <p>{item.name}</p>
+            </div>
+          ))}
+        </div>
+
+        {psStartIndex + itemsPerPage < photoshopData.length && (
+          <button className="nav-btn right" onClick={showNextPs}>
             <ChevronRight size={24} />
           </button>
         )}
