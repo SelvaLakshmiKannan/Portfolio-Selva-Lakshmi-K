@@ -60,18 +60,19 @@ import User_Management_Workflow from "../../assets/User_Management_Workflow.mp4"
 import Parallax_Scroll_Effect from "../../assets/Parallax_Scroll_Effect.mp4";
 import Netflix_Prototype from "../../assets/Netflix_Prototype.mp4";
 
-import clgPosters from "../../assets/clg-posters.gif";
-import groceryPoster from "../../assets/grocery-poster.gif";
-import juicePoster from "../../assets/juice-poster.gif";
-import mallPoster from "../../assets/mall-poster.gif";
-import salePoster from "../../assets/sale-poster.gif";
-import schoolPoster from "../../assets/school-poster.gif";
-import sclPoster from "../../assets/scl-poster.gif";
+import clgPosters from "../../assets/clg-posters.png";
+import groceryPoster from "../../assets/grocery-poster.png";
+import juicePoster from "../../assets/juice-poster.png";
+import mallPoster from "../../assets/mall-poster.png";
+import salePoster from "../../assets/sale-poster.png";
+import schoolPoster from "../../assets/school-poster.png";
+import sclPoster from "../../assets/scl-poster.png";
 
-import vc1 from "../../assets/vc1.gif";
-import vc2 from "../../assets/vc2.gif";
-import vc3 from "../../assets/vc3.gif";
-import vcard from "../../assets/vcard.gif";
+import vc1 from "../../assets/vc1.png";
+import vc2 from "../../assets/vc2.png";
+import vc3 from "../../assets/vc3.png";
+import vc4 from "../../assets/vc4.png";
+import vc5 from "../../assets/vc5.png";
 
 const designData = [
   { img: VR_Website, name: "Virutal Reality Website" },
@@ -141,7 +142,8 @@ const photoshopData = [
   { name: "Sale Poster", img: salePoster, animation: "fade-up" },
   { name: "School Poster", img: schoolPoster, animation: "fade-up" },
   { name: "Social Poster", img: sclPoster, animation: "fade-up" },
-  { name: "Visiting Card 4", img: vcard, animation: "fade-up" },
+  { name: "Visiting Card 4", img: vc4, animation: "fade-up" },
+  { name: "Visiting Card 5", img: vc5, animation: "fade-up" },
 ];
 
 const videoData = [
