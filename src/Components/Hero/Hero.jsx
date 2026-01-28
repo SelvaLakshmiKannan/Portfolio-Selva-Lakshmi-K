@@ -22,7 +22,7 @@ const Hero = () => {
           </AnchorLink>
         </div>
         <a
-          href="/SELVA LAKSHMI K (Resume).pdf"
+          href="./Selva_Lakshmi_(Resume).pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="hero-resume"

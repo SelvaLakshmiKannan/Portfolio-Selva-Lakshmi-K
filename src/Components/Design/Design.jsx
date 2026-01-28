@@ -63,6 +63,8 @@ import Netflix_Prototype from "../../assets/Netflix_Prototype.mp4";
 import clgPosters from "../../assets/clg-posters.png";
 import groceryPoster from "../../assets/grocery-poster.png";
 import juicePoster from "../../assets/juice-poster.png";
+import businessStrategyPoster from "../../assets/business-strategy-poster.png";
+import admissionPoster from "../../assets/admission-poster.png";
 import mallPoster from "../../assets/mall-poster.png";
 import salePoster from "../../assets/sale-poster.png";
 import schoolPoster from "../../assets/school-poster.png";
@@ -137,6 +139,12 @@ const photoshopData = [
   { name: "Grocery Poster", img: groceryPoster, animation: "fade-up" },
   { name: "Juice Poster", img: juicePoster, animation: "fade-up" },
   { name: "Visiting Card 2", img: vc2, animation: "fade-up" },
+  {
+    name: "Business Strategy Poster",
+    img: businessStrategyPoster,
+    animation: "fade-up",
+  },
+  { name: "Admission Poster", img: admissionPoster, animation: "fade-up" },
   { name: "Mall Poster", img: mallPoster, animation: "fade-up" },
   { name: "Visiting Card 3", img: vc3, animation: "fade-up" },
   { name: "Sale Poster", img: salePoster, animation: "fade-up" },
@@ -183,7 +191,7 @@ const Design = () => {
   const [videoStartIndex, setVideoStartIndex] = useState(0);
   const [modalVideo, setModalVideo] = useState(null);
   const [itemsPerPage, setItemsPerPage] = useState(
-    window.innerWidth <= 768 ? 1 : 2
+    window.innerWidth <= 768 ? 1 : 2,
   );
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
@@ -200,7 +208,7 @@ const Design = () => {
   const visibleItems = designData.slice(startIndex, startIndex + itemsPerPage);
   const visibleVideos = videoData.slice(
     videoStartIndex,
-    videoStartIndex + itemsPerPage
+    videoStartIndex + itemsPerPage,
   );
 
   const showPrev = () => {
@@ -226,7 +234,7 @@ const Design = () => {
   // Visible items
   const visiblePhotoshop = photoshopData.slice(
     psStartIndex,
-    psStartIndex + itemsPerPage
+    psStartIndex + itemsPerPage,
   );
 
   // Navigation
@@ -242,7 +250,7 @@ const Design = () => {
 
   return (
     <div id="design" className="design-section">
-      <h1 className="design-title">My Designs</h1>
+      <h1 className="design-title">Figma Designs</h1>
       <div className="design-carousel">
         {startIndex > 0 && (
           <button className="nav-btn left" onClick={showPrev}>
