@@ -11,15 +11,17 @@ const About = () => {
       <div className="about-content">
         <div className="about-para">
           <p>
-            Versatile and results-driven Frontend Developer and UI/UX Designer
-            with a strong foundation in React, HTML, CSS, and JavaScript.
-            Proficient in crafting responsive, user-focused web applications and
-            intuitive UI designs using tools like Figma. Skilled in transforming
+            Versatile and results-driven Frontend Developer, UI/UX Designer, and
+            Graphic Designer with a strong foundation in React, HTML, CSS, and
+            JavaScript. Proficient in crafting responsive, user-focused web
+            applications and intuitive UI designs using tools like Figma, Adobe
+            Photoshop, Illustrator, and CorelDRAW. Skilled in transforming
             design concepts into seamless digital experiences, backed by user
             research and clean, scalable code. Passionate about solving
-            real-world problems through technology, thriving in collaborative
-            environments that value innovation, precision, and continuous
-            learning to deliver impactful, high-quality web solutions.
+            real-world problems through technology and visual design, thriving
+            in collaborative environments that value innovation, precision, and
+            continuous learning to deliver impactful, high-quality digital
+            solutions.
           </p>
         </div>
         <div className="about-subsection">
@@ -87,14 +89,22 @@ const About = () => {
             </div>
           </div>
           <div className="about-skills">
-            {["HTML & CSS", "React", "JavaScript", "UI & UX", "Java", "C"].map(
-              (skill, i) => (
-                <div className="about-skill" key={i}>
-                  <p>{skill}</p>
-                  <hr />
-                </div>
-              )
-            )}
+            {[
+              "Adobe Photoshop",
+              "Adobe Illustrator",
+              "CorelDRAW",
+              "HTML & CSS",
+              "React",
+              "JavaScript",
+              "Figma",
+              "Java",
+              "C",
+            ].map((skill, i) => (
+              <div className="about-skill" key={i}>
+                <p>{skill}</p>
+                <hr />
+              </div>
+            ))}
           </div>
         </div>
       </div>

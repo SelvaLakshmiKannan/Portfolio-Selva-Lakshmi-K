@@ -9,11 +9,12 @@ const Hero = () => {
       <h1>I'm Selva Lakshmi K </h1>
       <p>
         Creative and detail-oriented fresher skilled in React, HTML, CSS,
-        JavaScript, and UI/UX design. Passionate about building intuitive,
-        accessible user interfaces and engaging user experiences. Committed to
-        writing clean, maintainable code and staying updated with the latest web
-        and design technologies to deliver impactful, user-centered digital
-        solutions.
+        JavaScript, and UI/UX design, with hands-on experience in Adobe
+        Photoshop, Illustrator, and CorelDRAW. Passionate about building
+        intuitive, accessible user interfaces and engaging user experiences.
+        Committed to writing clean, maintainable code and staying updated with
+        the latest web and design technologies to deliver impactful,
+        user-centered digital solutions.
       </p>
       <div className="hero-action">
         <div className="hero-connect">
