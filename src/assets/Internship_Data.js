@@ -13,6 +13,16 @@ const Internship_Data = [
   },
   {
     s_no: "02",
+    company: "Phoenix Innovation and Computer Center",
+    domain: "Graphic Designing",
+    duration: "Dec 2025 - Feb 2026",
+    description: [
+      "Learned tools like Photoshop, Illustrator, and CorelDRAW",
+      "Capable of designing flyers, logos, visiting cards, and posters.",
+    ],
+  },
+  {
+    s_no: "03",
     company: "Dhatchan Academy",
     domain: "Web Development",
     duration: "Jul 2023 - 15 days",
