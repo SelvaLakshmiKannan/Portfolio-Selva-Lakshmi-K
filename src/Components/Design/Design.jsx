@@ -69,6 +69,10 @@ import mallPoster from "../../assets/mall-poster.png";
 import salePoster from "../../assets/sale-poster.png";
 import schoolPoster from "../../assets/school-poster.png";
 import sclPoster from "../../assets/scl-poster.png";
+import lookposter from "../../assets/look-poster.png";
+import perfume from "../../assets/perfume.png";
+import tennisposter from "../../assets/tennis_poster.png";
+import shopping from "../../assets/shopping.png";
 
 import vc1 from "../../assets/vc1.png";
 import vc2 from "../../assets/vc2.png";
@@ -134,24 +138,27 @@ const designData = [
 ];
 
 const photoshopData = [
-  { name: "College Poster", img: clgPosters, animation: "fade-up" },
-  { name: "Visiting Card 1", img: vc1, animation: "fade-up" },
-  { name: "Grocery Poster", img: groceryPoster, animation: "fade-up" },
-  { name: "Juice Poster", img: juicePoster, animation: "fade-up" },
-  { name: "Visiting Card 2", img: vc2, animation: "fade-up" },
+  { img: shopping, animation: "fade-up" },
+  { img: perfume, animation: "fade-up" },
+  { img: tennisposter, animation: "fade-up" },
+  { img: lookposter, animation: "fade-up" },
+  { img: clgPosters, animation: "fade-up" },
+  { img: vc1, animation: "fade-up" },
+  { img: groceryPoster, animation: "fade-up" },
+  { img: juicePoster, animation: "fade-up" },
+  { img: vc2, animation: "fade-up" },
   {
-    name: "Business Strategy Poster",
     img: businessStrategyPoster,
     animation: "fade-up",
   },
-  { name: "Admission Poster", img: admissionPoster, animation: "fade-up" },
-  { name: "Mall Poster", img: mallPoster, animation: "fade-up" },
-  { name: "Visiting Card 3", img: vc3, animation: "fade-up" },
-  { name: "Sale Poster", img: salePoster, animation: "fade-up" },
-  { name: "School Poster", img: schoolPoster, animation: "fade-up" },
-  { name: "Social Poster", img: sclPoster, animation: "fade-up" },
-  { name: "Visiting Card 4", img: vc4, animation: "fade-up" },
-  { name: "Visiting Card 5", img: vc5, animation: "fade-up" },
+  { img: admissionPoster, animation: "fade-up" },
+  { img: mallPoster, animation: "fade-up" },
+  { img: vc3, animation: "fade-up" },
+  { img: salePoster, animation: "fade-up" },
+  { img: schoolPoster, animation: "fade-up" },
+  { img: sclPoster, animation: "fade-up" },
+  { img: vc4, animation: "fade-up" },
+  { img: vc5, animation: "fade-up" },
 ];
 
 const videoData = [
