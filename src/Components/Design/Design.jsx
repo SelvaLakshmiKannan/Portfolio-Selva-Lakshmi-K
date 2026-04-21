@@ -73,6 +73,8 @@ import lookposter from "../../assets/look-poster.png";
 import perfume from "../../assets/perfume.png";
 import tennisposter from "../../assets/tennis_poster.png";
 import shopping from "../../assets/shopping.png";
+import friday from "../../assets/Friday-offer-poster.png";
+import music from "../../assets/music.png";
 
 import vc1 from "../../assets/vc1.png";
 import vc2 from "../../assets/vc2.png";
@@ -139,7 +141,9 @@ const designData = [
 
 const photoshopData = [
   { img: shopping, animation: "fade-up" },
+  { img: music },
   { img: perfume, animation: "fade-up" },
+  { img: friday },
   { img: tennisposter, animation: "fade-up" },
   { img: lookposter, animation: "fade-up" },
   { img: clgPosters, animation: "fade-up" },
